@@ -1,0 +1,113 @@
+body {
+  background-image: url(images/background.gif);
+
+  font-family: 'Abel', sans-serif;
+  }
+
+
+.logo{
+ height: 100px;
+ width: 150px;
+ display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 50%;
+
+}
+.responsive-img{
+    max-height: 100px;
+    margin-bottom: 13px;
+    transition: transform 0.3s ease, margin 0.3s ease;
+  }
+
+  .responsive.img{
+     max-height: 100px;
+     cursor: pointer;
+   }
+
+
+
+img:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+
+.frame {
+  width: 1000px;
+  height: 350px;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 1%;
+  box-shadow: 10px 10px 0.5px rgba(0, 0, 0, 0.4);
+  margin: 50px auto;
+}
+
+.searchPokemon {
+  width: 500px;
+  text-align: center;
+  margin: 15px auto;
+}
+
+.searchPokemon input {
+  background: transparent;
+  border: none;
+  padding: 16px;
+  border-bottom: solid 2px #A6131E;
+  font-size: 16px;
+  color: #fff;
+  width: 60%;
+  transition:  all 1s ease;
+  right: 0;
+  font-weight: bold;
+}
+
+.searchPokemon input::placeholder {
+  color: yellow;
+  font-weight: bold;
+}
+
+.searchPokemon input:focus {
+  outline: none;
+  border-color: #fff;
+}
+
+button.button-search {
+  background: white;
+  border: 2px solid blue;
+  box-shadow: 0 0 0 3px red;
+  cursor: pointer;
+  width: 150px;
+  border-radius: 25px;
+  padding: 4px;
+  color: #A6131E;
+  font-weight: bold;
+  transition: 0.9s;
+}
+
+button.button-search img {
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+button.button-search:focus {
+  outline: none;
+}
+
+.button-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+button.button-search:active {
+  transform: scale(1.1);
+}
+
+.pokemons {
+  display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}

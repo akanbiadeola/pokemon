@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>MUSEMIU POKEDEX</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel = "stylesheet" href="pokemon.css">
+    <link rel = "stylesheet" href="animate.css">
+    <link rel = "stylesheet" href="style.css">
+  </head>
+
+  <body>
+ <!--Header & Logo -->
+    <div>
+    <header>
+      <img class="logo" src="images/logo.png" alt="Pokemon">
+    </header>
+</div>
+<!--Search bar place holder -->
+<div class="searchPokemon">
+      <input type="text" id="pokemon-name" placeholder="Search Pokemon" />
+      <button class="button-search"  id="caught">
+        <div class="button-content">
+          Search
+          <img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Pok%C3%A9ball.png" alt="" />
+          <img src="https://www.ssbwiki.com/images/thumb/a/a0/FRLGMaleTrainer.png/200px-FRLGMaleTrainer.png" alt="" />
+
+        </div>
+      </button>
+
+    </div>
+  </div>
+
+          <div class="row">
+              <h2 class="center white-text">
+                  Choose your pokemon
+              </h2>
+          </div>
+
+          <div class="frame">
+              <div class="space">
+                    <div id="one" class="squares">
+
+<!--using materialize CSS for my grid -->
+
+          <div class="row center">
+              <div class="col s12 m12 l3">
+                  <button type="button" onclick="getAmpharos()">Ampharos</button></li>
+<div class = "animated slideInUp">
+                  <img class="responsive-img" id="myBtn" src="images/ampharos.png">
+
+                <div id="hp"></div>
+                  <div id="attack"></div>
+                  <div id="ability"></div>
+                  <div id="id"></div>
+
+
+                </div>
+              </div>
+
+              <div class="col s12 m12 l3">
+                  <button type="button" onclick="getBlastoise()">Blastoise</button></li>
+                <div class = "animated slideInUp">
+                  <img class="responsive-img" id="myPoke" src="images/blastoise.png">
+                  <div id="hp2"></div>
+                  <div id="attack2"></div>
+                  <div id="ability2"></div>
+                  <div id="id2"></div>
+</div>
+              </div>
+              <div class="col s12 m12 l3">
+                <button type="button" onclick="getChinchou()">Chinchou</button></li>
+                <div class = "animated slideInUp">
+                  <img class="responsive-img" id="Poke" src="images/chinchou.png">
+                  <div id="hp3"></div>
+                  <div id="attack3"></div>
+                  <div id="ability3"></div>
+                  <div id="id3"></div>
+
+              </div>
+</div>
+
+
+
+<!-- Compiled and minified JavaScript using materialize CSS -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+<script src="pokemon.js"></script>
+
+
+  </body>
+</html>
